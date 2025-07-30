@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 205, 248);
+    background-color: rgb(224, 243, 189);
       font-family: "Kirang Haerang", system-ui;
      font-weight: 400;
     font-style: normal;
@@ -15,9 +15,26 @@ body {
 
     .cartao {
     margin: 1rem 1rem;
-    background-color: white;
+    background-color: rgba(186, 207, 147, 0.815);
     height: 20rem;
     flex-grow: 1;
+    flex-basis: calc(33% -6rem);
+}
+
+.cartao__conteudo{
+    text-align: center;
+    height: 100%;
+
+}
+
+.cartao__conteudo h3 {
+    background-color: rgba(113, 131, 81, 0.815);
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+    font-size: 1vw;
 }
 
 footer {
