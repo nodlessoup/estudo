@@ -3,6 +3,21 @@ body {
       font-family: "Kirang Haerang", system-ui;
 }
 
+
+#container {
+    display:flex ;
+}
+.cartao {
+    margin: 1rem 1rem;
+}
+
+    .cartao {
+    margin: 1rem 1rem;
+    background-color: white;
+    height: 20rem;
+    flex-grow: 1;
+}
+
 footer {
     background-color: rgb(139, 84, 84);
     color: white;
@@ -15,4 +30,5 @@ footer {
 footer p{
     text-align: center;
     font-size: 0.6rem;
+        margin-top: 0,5rem;
 }
