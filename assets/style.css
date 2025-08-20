@@ -24,6 +24,8 @@ body {
 .cartao__conteudo{
     text-align: center;
     height: 100%;
+      transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
 
 }
 
@@ -35,7 +37,25 @@ body {
     margin: 0.6rem;
     border-radius: 0.6rem;
     font-size: 1vw;
+     backface-visibility: hidden;
 }
+
+    .cartao:hover .cartao__conteudo {
+    transform: rotateY(180deg);
+}
+
+.cartao__conteudo__pergunta,
+.cartao__conteudo__resposta {
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.cartao__conteudo__resposta {
+    transform: rotateY(180deg);
+}
+
 
 
 footer {
